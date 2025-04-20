@@ -45,3 +45,32 @@
 .offers__link {
     margin-top: 12px;
 }
+
+@media(max-width:100px){
+.offers__item:first-child{
+    padding-right: 0;
+}
+
+.offers__item:last-child{
+padding-left: 0;
+margin-top: 55px;
+}
+.offers .container{
+    padding: 80px 10px;
+}
+
+}
+
+
+@media(max-width: 900px){
+.offers__item{
+    column-gap: 20px;
+}
+
+}
+
+@media( max-width:800px){
+    .offers__item{
+        flex-direction: column;
+    }
+}
